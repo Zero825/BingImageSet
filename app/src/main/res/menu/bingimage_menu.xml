@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bingimage_menu1"
+        android:title="@string/bingimage_menu1" />
+    <item
+        android:id="@+id/bingimage_menu2"
+        android:title="@string/bingimage_menu2" />
+    <item
+        android:id="@+id/bingimage_menu3"
+        android:title="@string/bingimage_menu3" />
+    <item
+        android:id="@+id/bingimage_menu4"
+        android:title="@string/bingimage_menu4" />
+</menu>

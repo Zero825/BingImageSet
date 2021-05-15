@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">每图</string>
+    <string name="app_loading">正在加载…</string>
+    <string name="app_neterror">网络连接中断…</string>
+    <string name="app_enter">确认</string>
+    <string name="app_about">关于应用</string>
+    <string name="app_about_msg">版本：1.0\n最低支持：Lollipop\n理想支持：Pie\n应用ID：com.image.bingimage</string>
+    <string name="app_bingimage_interface">Bing图源：https://cn.bing.com/\nHPImageArchive.aspx</string>
+    <string name="app_main_menu1">设置</string>
+    <string name="app_main_menu2">关于</string>
+    <string name="bingimage_menu1">设为锁屏壁纸</string>
+    <string name="bingimage_menu2">设为桌面壁纸</string>
+    <string name="bingimage_menu3">设为锁屏和壁纸</string>
+    <string name="bingimage_menu4">下载到文件夹</string>
+    <string name="bingimage_about">一些说明\n主界面可以左右乱划\n设置界面可以滑动返回\n主界面对着图片长按可以操作一下\n
+    7.0以下在本应用内手动也不能设置壁纸\n改变图片分辨率可以不用重启应用，等就行了\n
+        9.0以下乱划时状态栏和导航栏不会变色\n
+        给个后台运行,不然服务3s就掉线了嚯\nbug可能多别骂，在骂人就傻啦\n测试应用的手机只有16s\n
+        双击返回键退出应用\n下载路径不要乱写\n谢谢使用\n没了</string>
+
+    <string-array name="image_resolution">
+        <item>1920x1080</item>
+        <item>1080x1920</item>
+        <item>UHD</item>
+    </string-array>
+</resources>

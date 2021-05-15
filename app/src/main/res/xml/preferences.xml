@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="自动设置功能(系统版本7.0及以上支持)"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="auto_set_wallpaper"
+            android:summary="每天晚上12点更新"
+            android:title="自动设置壁纸"
+            app:iconSpaceReserved="false" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="set_lock_wallpaper"
+            android:title="自动设置锁屏壁纸"
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="set_wallpaper"
+            android:title="自动设置桌面壁纸"
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="图片分辨率设置"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="1080x1920"
+            android:entries="@array/image_resolution"
+            android:entryValues="@array/image_resolution"
+            android:key="image_resolution"
+            android:summary="重启应用立即生效"
+            android:title="请选择图片分辨率"
+            app:defaultValue="1080x1920"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="下载路径设置"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:defaultValue="/storage/emulated/0/Download"
+            android:key="imae_download_path"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="默认位置：/storage/emulated/0/Download"
+            android:title="下载路径"
+            app:defaultValue="/storage/emulated/0/Download"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
